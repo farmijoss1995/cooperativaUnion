@@ -1,0 +1,18 @@
+package ec.ups.edu.app.g2.cooperativaUnion.utils;
+
+import java.util.UUID;
+
+import ec.edu.ups.EN.Usuario;
+
+public class PasswordAleatoreo {
+	
+	Usuario u ;
+	
+	public void password( ) {
+		String contrasena = "";
+		contrasena = UUID.randomUUID().toString().toLowerCase().substring(0,11);
+		u.setPassword(contrasena);
+		
+	}
+
+}
