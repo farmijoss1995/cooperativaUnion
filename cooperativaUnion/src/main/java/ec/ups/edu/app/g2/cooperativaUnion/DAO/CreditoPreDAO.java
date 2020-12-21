@@ -8,11 +8,11 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
-import ec.edu.ups.EN.CreditoPres;
-import ec.edu.ups.EN.CuentaAhorro;
-import ec.edu.ups.EN.SolicitudCredito;
-import ec.edu.ups.EN.Transaccion;
-import ec.edu.ups.utils.SolicitudTemporal;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CreditoPres;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CuentaAhorro;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.SolicitudCredito;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Transaccion;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.SolicitudTemporal;
 
 @Stateless
 public class CreditoPreDAO {

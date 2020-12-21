@@ -10,15 +10,15 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import javax.sound.midi.Soundbank;
 
-import ec.edu.ups.EN.CreditoPres;
-import ec.edu.ups.EN.CuentaAhorro;
-import ec.edu.ups.EN.Empleado;
-import ec.edu.ups.EN.Pago;
-import ec.edu.ups.EN.Sesion;
-import ec.edu.ups.EN.SolicitudCredito;
-import ec.edu.ups.EN.Transaccion;
-import ec.edu.ups.bussiness.SolicitudCreditoON;
-import ec.edu.ups.bussiness.TransaccionON;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CreditoPres;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CuentaAhorro;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Empleado;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Pago;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Sesion;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.SolicitudCredito;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Transaccion;
+import ec.ups.edu.app.g2.cooperativaUnion.modelo.SolicitudCreditoON;
+import ec.ups.edu.app.g2.cooperativaUnion.modelo.TransaccionON;
 
 @Named
 @ConversationScoped

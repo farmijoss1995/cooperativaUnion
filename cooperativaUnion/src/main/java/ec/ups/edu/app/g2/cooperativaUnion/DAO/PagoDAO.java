@@ -8,10 +8,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
-import ec.edu.ups.EN.CreditoPres;
-import ec.edu.ups.EN.Empleado;
-import ec.edu.ups.EN.Pago;
-import ec.edu.ups.EN.Pago;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CreditoPres;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Empleado;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Pago;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Pago;
 
 @Stateless
 public class PagoDAO {

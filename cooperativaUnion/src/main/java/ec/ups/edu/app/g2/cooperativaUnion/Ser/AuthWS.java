@@ -10,12 +10,12 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
-import ec.edu.ups.EN.Sesion;
-import ec.edu.ups.EN.Usuario;
-import ec.edu.ups.bussiness.UsuarioON;
-import ec.edu.ups.controller.LoginBean;
-import ec.edu.ups.utils.RestFilter;
-import ec.edu.ups.utils.UsuarioTemp;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Sesion;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Usuario;
+import ec.ups.edu.app.g2.cooperativaUnion.modelo.UsuarioON;
+import ec.ups.edu.app.g2.cooperativaUnion.Controlador.LoginBean;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.RestFilter;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.UsuarioTemp;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 

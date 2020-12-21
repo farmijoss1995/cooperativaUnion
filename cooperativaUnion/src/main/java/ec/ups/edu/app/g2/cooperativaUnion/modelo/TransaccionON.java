@@ -12,22 +12,22 @@ import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 import javax.persistence.Query;
 
-import ec.edu.ups.DAO.CreditoPreDAO;
-import ec.edu.ups.DAO.CuentaAhorroDAO;
-import ec.edu.ups.DAO.PagoDAO;
-import ec.edu.ups.DAO.TransaccionDAO;
-import ec.edu.ups.EN.CreditoPres;
-import ec.edu.ups.EN.CuentaAhorro;
-import ec.edu.ups.EN.Empleado;
-import ec.edu.ups.EN.Pago;
-import ec.edu.ups.EN.Transaccion;
-import ec.edu.ups.EN.Usuario;
-import ec.edu.ups.utils.Decimales;
-import ec.edu.ups.utils.Mail;
-import ec.edu.ups.utils.PrestamoTemp;
-import ec.edu.ups.utils.Respuesta;
-import ec.edu.ups.utils.SolicitudTemporal;
-import ec.edu.ups.utils.Trans;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.CreditoPreDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.CuentaAhorroDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.PagoDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.TransaccionDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CreditoPres;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CuentaAhorro;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Empleado;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Pago;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Transaccion;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Usuario;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.Decimales;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.Mail;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.PrestamoTemp;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.Respuesta;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.SolicitudTemporal;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.Trans;
 
 @Stateless
 public class TransaccionON {

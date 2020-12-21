@@ -1,21 +1,21 @@
 package ec.ups.edu.app.g2.cooperativaUnion.Ser;
 
 import javax.inject.Inject;
-import javax.jws.WebMethod;
-import javax.jws.WebService;
+//import javax.jws.WebMethod;
+//import javax.jws.WebService;
 
-import ec.edu.ups.EN.CuentaAhorro;
-import ec.edu.ups.EN.Transaccion;
-import ec.edu.ups.bussiness.TransaccionON;
-import ec.edu.ups.utils.Respuesta;
-import ec.edu.ups.utils.Trans;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CuentaAhorro;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Transaccion;
+import ec.ups.edu.app.g2.cooperativaUnion.modelo.TransaccionON;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.Respuesta;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.Trans;
 
-@WebService
+//@WebService
 public class TransaccionService {
 	@Inject
 	TransaccionON on;
 	
-	@WebMethod
+	//@WebMethod
 	public Respuesta transacciones( Trans trx) {
 		Respuesta r = new Respuesta();
 		try {

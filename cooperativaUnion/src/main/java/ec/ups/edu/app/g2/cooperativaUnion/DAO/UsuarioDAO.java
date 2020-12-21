@@ -8,11 +8,11 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
-import ec.edu.ups.EN.CuentaAhorro;
-import ec.edu.ups.EN.Sesion;
-import ec.edu.ups.EN.Transaccion;
-import ec.edu.ups.EN.Usuario;
-import ec.edu.ups.utils.UsuarioTemp;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CuentaAhorro;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Sesion;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Transaccion;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Usuario;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.UsuarioTemp;
 
 @Stateless
 public class UsuarioDAO {

@@ -2,7 +2,7 @@ package ec.ups.edu.app.g2.cooperativaUnion.utils;
 
 import java.util.List;
 
-import ec.edu.ups.EN.CuentaAhorro;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CuentaAhorro;
 
 public class Respuesta {
 	

@@ -5,9 +5,9 @@ import javax.ejb.Singleton;
 import javax.ejb.Startup;
 import javax.inject.Inject;
 
-import ec.edu.ups.DAO.CuentaAhorroDAO;
-import ec.edu.ups.DAO.EmpleadoDAO;
-import ec.edu.ups.EN.Empleado;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.CuentaAhorroDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.EmpleadoDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Empleado;
 
 @Startup
 @Singleton

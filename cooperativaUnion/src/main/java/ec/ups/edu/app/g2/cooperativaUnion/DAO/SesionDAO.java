@@ -6,7 +6,7 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-import ec.edu.ups.EN.Sesion;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Sesion;
 
 
 @Stateless

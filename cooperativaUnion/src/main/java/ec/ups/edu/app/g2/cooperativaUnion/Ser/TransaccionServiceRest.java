@@ -1,7 +1,7 @@
 package ec.ups.edu.app.g2.cooperativaUnion.Ser;
-import ec.edu.ups.bussiness.TransaccionON;
-import ec.edu.ups.utils.Respuesta;
-import ec.edu.ups.utils.Trans;
+import ec.ups.edu.app.g2.cooperativaUnion.modelo.TransaccionON;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.Respuesta;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.Trans;
 import javax.ws.rs.Consumes;
 import javax.inject.Inject;
 import javax.ws.rs.POST;

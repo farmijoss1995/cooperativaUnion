@@ -7,13 +7,13 @@ import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.persistence.Query;
 
-import ec.edu.ups.DAO.CuentaAhorroDAO;
-import ec.edu.ups.DAO.SolicitudCreditoDAO;
-import ec.edu.ups.DAO.TransaccionDAO;
-import ec.edu.ups.EN.CuentaAhorro;
-import ec.edu.ups.EN.SolicitudCredito;
-import ec.edu.ups.EN.Transaccion;
-import ec.edu.ups.utils.SolicitudTemporal;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.CuentaAhorroDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.SolicitudCreditoDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.TransaccionDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CuentaAhorro;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.SolicitudCredito;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Transaccion;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.SolicitudTemporal;
 
 @Stateless
 public class SolicitudCreditoON {

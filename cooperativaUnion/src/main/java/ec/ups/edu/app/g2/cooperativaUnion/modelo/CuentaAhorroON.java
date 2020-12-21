@@ -8,11 +8,11 @@ import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.persistence.Query;
 
-import ec.edu.ups.DAO.CuentaAhorroDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.CuentaAhorroDAO;
 
-import ec.edu.ups.EN.CuentaAhorro;
-import ec.edu.ups.EN.Empleado;
-import ec.edu.ups.EN.Transaccion;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CuentaAhorro;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Empleado;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Transaccion;
 
 
 @Stateless

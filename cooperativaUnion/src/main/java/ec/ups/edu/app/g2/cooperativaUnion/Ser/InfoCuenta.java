@@ -6,8 +6,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 
-import ec.edu.ups.EN.CuentaAhorro;
-import ec.edu.ups.bussiness.CuentaAhorroON;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CuentaAhorro;
+import ec.ups.edu.app.g2.cooperativaUnion.modelo.CuentaAhorroON;
 
 @Path("/InfoCuenta")
 public class InfoCuenta {

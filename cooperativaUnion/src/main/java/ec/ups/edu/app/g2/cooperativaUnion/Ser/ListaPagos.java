@@ -8,8 +8,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 
-import ec.edu.ups.EN.Pago;
-import ec.edu.ups.bussiness.CreditoPresON;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Pago;
+import ec.ups.edu.app.g2.cooperativaUnion.modelo.CreditoPresON;
 
 @Path("/ListaPagos")
 public class ListaPagos {

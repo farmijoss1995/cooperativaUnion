@@ -6,14 +6,14 @@ import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.persistence.Query;
 
-import ec.edu.ups.DAO.EmpleadoDAO;
-import ec.edu.ups.DAO.SesionDAO;
-import ec.edu.ups.DAO.UsuarioDAO;
-import ec.edu.ups.EN.CuentaAhorro;
-import ec.edu.ups.EN.Empleado;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.EmpleadoDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.SesionDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.DAO.UsuarioDAO;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.CuentaAhorro;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Empleado;
 
-import ec.edu.ups.EN.Sesion;
-import ec.edu.ups.EN.Usuario;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Sesion;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Usuario;
 
 @Stateless
 public class EmpleadoON {

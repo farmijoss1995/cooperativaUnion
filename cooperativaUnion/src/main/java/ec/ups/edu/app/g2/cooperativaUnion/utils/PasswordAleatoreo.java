@@ -2,7 +2,7 @@ package ec.ups.edu.app.g2.cooperativaUnion.utils;
 
 import java.util.UUID;
 
-import ec.edu.ups.EN.Usuario;
+import ec.ups.edu.app.g2.cooperativaUnion.EN.Usuario;
 
 public class PasswordAleatoreo {
 	

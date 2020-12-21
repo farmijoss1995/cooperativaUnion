@@ -6,10 +6,10 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
-import ec.edu.ups.bussiness.UsuarioON;
-import ec.edu.ups.utils.Respuesta;
-import ec.edu.ups.utils.Trans;
-import ec.edu.ups.utils.UsuarioTemp;
+import ec.ups.edu.app.g2.cooperativaUnion.modelo.UsuarioON;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.Respuesta;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.Trans;
+import ec.ups.edu.app.g2.cooperativaUnion.utils.UsuarioTemp;
 
 @Path("/cambiopass")
 public class Cambiopass {
